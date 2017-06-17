@@ -5,6 +5,7 @@ const render = (root) => {
   const wrapper = $('<div class="wrapper"></div>');
   wrapper.append(Header());
   wrapper.append(Search());
+  wrapper.append(PokemonBox());
 
   root.append(wrapper);
 }
@@ -13,6 +14,7 @@ const render = (root) => {
 
 const state = {
   pokemon: null
+  //selectedPokemon:
 };
 
 $(_ => {
