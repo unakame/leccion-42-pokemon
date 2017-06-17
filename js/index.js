@@ -10,8 +10,21 @@ const render = (root) => {
 }
 
 //funcion anónima esencial para que se ejecute en jQuery
-$(_ => {
-  const root = $('#root');
-  render(root);
 
-})
+const state = {
+  pokemon: null
+};
+
+$(_ => {
+
+  getJSON('http://pokeapi.co/api/v2/pokedex/1/', (err, json) => {
+
+    if (err) { return alert(err.message);}
+
+    state.pokemon = json.pokemon_entries;
+
+    const root = $('#root');
+    render(root);
+  });
+
+});
