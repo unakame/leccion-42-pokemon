@@ -35,3 +35,5 @@
   	$('.pokemonBox').append(pokemonMiniBox);
   	});
   }
+
+  //
