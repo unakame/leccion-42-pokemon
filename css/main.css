@@ -29,7 +29,7 @@ button{
 .pokemonBox{
   background-color: blue;
   width: 100%;
-  height: 400px;
+  max-height: 60100px;
 }
 
 .pokemonMiniBox{
@@ -69,4 +69,5 @@ img{
   margin-left: auto;
   margin-right: auto;
   margin-top: 25%;
+  height: 45%;
 }
