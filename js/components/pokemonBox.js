@@ -15,7 +15,7 @@
    	i++;
   	var pokemonMiniBox       = $('<div class="pokemonMiniBox col-md-2 col-xs-2">');
   	var pokemonBoxIcon       = $('<div class="icon-box">');
-    var pokemonAnchor        = $('<a href="#">');
+    var pokemonAnchor        = $('<a href="#modalBox">');
     var pokemonPokeballIcon  = $('<img src="icon/pokeball_gray.png" class="icon">');
     var pokemonHeartIcon     = $('<img src="icon/valentines-heart.png" class="icon">');
     var pokemonDataIcon      = $('<img src="icon/data.png" class="icon">');
