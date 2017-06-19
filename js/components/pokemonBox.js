@@ -3,7 +3,7 @@
 
 
   $(function() {
-  	$.getJSON("http://pokeapi.co/api/v2/pokedex/1/", function (e) {
+  	$.getJSON("https://pokeapi.co/api/v2/pokedex/1/", function (e) {
   			var pokemons = e.pokemon_entries;
   			item(pokemons);
   		});
